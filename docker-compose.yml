@@ -13,7 +13,7 @@ services:
     container_name: todo_db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_ROOT_PASSWORD: Root@123
       MYSQL_DATABASE: todolist
     ports:
       - "3306:3306"
